@@ -1,10 +1,10 @@
-package v1
+package log
 
 import (
 	stdlog "log"
 )
 
-//go:generate mockery --case underscore --dir ./ --name Logger --output ./logtest --outpkg v1test
+//go:generate mockery --case underscore --dir ./ --name Logger --output ./logtest --outpkg logtest
 type Logger interface {
 	// GetStd return the inner standard logger
 	GetStd() *stdlog.Logger
