@@ -1,4 +1,4 @@
-package log
+package v1
 
 import (
 	stdlog "log"
