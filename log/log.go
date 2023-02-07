@@ -13,8 +13,8 @@ type Logger interface {
 
 	// Log LogMsg for logging with dynamic level with msg and details
 	Log(level Level, msg string, args map[string]any)
-	// LogMsg Log for logging with dynamic level and only msg
-	LogMsg(level Level, msg string)
+	// Msg for logging with dynamic level and only msg
+	Msg(level Level, msg string)
 
 	Debug(msg string, args map[string]any)
 	Info(msg string, args map[string]any)

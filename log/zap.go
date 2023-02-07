@@ -86,7 +86,7 @@ func (l *ZapLogger) Log(level Level, msg string, args map[string]any) {
 	}
 }
 
-func (l *ZapLogger) LogMsg(level Level, msg string) {
+func (l *ZapLogger) Msg(level Level, msg string) {
 	switch level {
 	case LevelDebug:
 		l.zap.Debug(msg)

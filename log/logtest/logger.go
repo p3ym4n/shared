@@ -85,7 +85,7 @@ func (_m *Logger) Log(level log.Level, msg string, args map[string]interface{}) 
 }
 
 // LogMsg provides a mock function with given fields: level, msg
-func (_m *Logger) LogMsg(level log.Level, msg string) {
+func (_m *Logger) Msg(level log.Level, msg string) {
 	_m.Called(level, msg)
 }
 
