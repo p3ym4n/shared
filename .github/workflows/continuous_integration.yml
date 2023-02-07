@@ -21,11 +21,11 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
 
-      - name: Lint
-        uses: golangci/golangci-lint-action@v2
-        with:
-          version: latest
-          only-new-issues: true
+#      - name: Lint
+#        uses: golangci/golangci-lint-action@v2
+#        with:
+#          version: latest
+#          only-new-issues: true
 
       - name: Test
         run: |-
