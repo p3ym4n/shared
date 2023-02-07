@@ -1,0 +1,28 @@
+#
+# IDE/editors
+#
+.idea
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#
+# OS
+#
+.DS_Store
+
+#
+# Project files
+#
+cover.out
+
+# # build dir
+/build/*
+!/build/.keep
+
+# secrets
+/.env
+/.vscode
